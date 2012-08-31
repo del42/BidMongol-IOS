@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1A376115CE330E0006378D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1A376015CE330E0006378D /* logo.png */; };
+		AF42125B15EAEB3800C3A52F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF42125A15EAEB3800C3A52F /* libsqlite3.0.dylib */; };
 		AF54CC4215CB51F900ED66D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF54CC4115CB51F900ED66D0 /* UIKit.framework */; };
 		AF54CC4415CB51F900ED66D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF54CC4315CB51F900ED66D0 /* Foundation.framework */; };
 		AF54CC4615CB51F900ED66D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF54CC4515CB51F900ED66D0 /* CoreGraphics.framework */; };
@@ -15,22 +17,52 @@
 		AF54CC5215CB51F900ED66D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF54CC5115CB51F900ED66D0 /* AppDelegate.m */; };
 		AF54CC5515CB51F900ED66D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF54CC5315CB51F900ED66D0 /* MainStoryboard.storyboard */; };
 		AF54CC5815CB51F900ED66D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF54CC5715CB51F900ED66D0 /* ViewController.m */; };
+		AF54CC6415CB58D000ED66D0 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = AF54CC6315CB58D000ED66D0 /* ic_launcher.png */; };
+		AF63B94915CE4B1D0036FF5F /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = AF63B94815CE4B1D0036FF5F /* list.png */; };
+		AF63B94B15CE4B280036FF5F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = AF63B94A15CE4B280036FF5F /* add.png */; };
+		AF8542EC15E72B1900EEA17A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8542EB15E72B1900EEA17A /* ViewController2.m */; };
+		AF8542EF15E72B2C00EEA17A /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8542EE15E72B2C00EEA17A /* ViewController3.m */; };
+		AF85430C15E74D0F00EEA17A /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85430B15E74D0F00EEA17A /* ViewController1.m */; };
+		AF85431C15EAD34B00EEA17A /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85431B15EAD34B00EEA17A /* user.m */; };
+		AFFE97BF15EF4E7D0013DD4C /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE97BE15EF4E7D0013DD4C /* ViewController4.m */; };
+		AFFE97C315EF512C0013DD4C /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE97C215EF512C0013DD4C /* ViewController5.m */; };
+		AFFE97C715EF557F0013DD4C /* ty1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFFE97C615EF557F0013DD4C /* ty1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF1A376015CE330E0006378D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AF42125A15EAEB3800C3A52F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		AF54CC3D15CB51F900ED66D0 /* bidmongol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bidmongol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF54CC4115CB51F900ED66D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF54CC4315CB51F900ED66D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF54CC4515CB51F900ED66D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AF54CC4915CB51F900ED66D0 /* bidmongol-Info.plist */ = {isa = PBXFileReference; path = "bidmongol-Info.plist"; sourceTree = "<group>"; };
+		AF54CC4915CB51F900ED66D0 /* bidmongol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bidmongol-Info.plist"; sourceTree = "<group>"; };
 		AF54CC4B15CB51F900ED66D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF54CC4D15CB51F900ED66D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AF54CC4F15CB51F900ED66D0 /* bidmongol-Prefix.pch */ = {isa = PBXFileReference; path = "bidmongol-Prefix.pch"; sourceTree = "<group>"; };
-		AF54CC5015CB51F900ED66D0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF54CC4F15CB51F900ED66D0 /* bidmongol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bidmongol-Prefix.pch"; sourceTree = "<group>"; };
+		AF54CC5015CB51F900ED66D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF54CC5115CB51F900ED66D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF54CC5415CB51F900ED66D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AF54CC5615CB51F900ED66D0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AF54CC5615CB51F900ED66D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AF54CC5715CB51F900ED66D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF54CC6315CB58D000ED66D0 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		AF54CC6515CB58D900ED66D0 /* bidmongol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = bidmongol.entitlements; sourceTree = "<group>"; };
+		AF63B94815CE4B1D0036FF5F /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		AF63B94A15CE4B280036FF5F /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		AF8542EA15E72B1900EEA17A /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		AF8542EB15E72B1900EEA17A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		AF8542ED15E72B2C00EEA17A /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		AF8542EE15E72B2C00EEA17A /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		AF85430115E749C300EEA17A /* bidmongol.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bidmongol.sqlite; sourceTree = SOURCE_ROOT; };
+		AF85430A15E74D0F00EEA17A /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		AF85430B15E74D0F00EEA17A /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		AF85431A15EAD34A00EEA17A /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		AF85431B15EAD34B00EEA17A /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
+		AFFE97BD15EF4E7D0013DD4C /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		AFFE97BE15EF4E7D0013DD4C /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		AFFE97C115EF512C0013DD4C /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		AFFE97C215EF512C0013DD4C /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		AFFE97C615EF557F0013DD4C /* ty1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ty1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF42125B15EAEB3800C3A52F /* libsqlite3.0.dylib in Frameworks */,
 				AF54CC4215CB51F900ED66D0 /* UIKit.framework in Frameworks */,
 				AF54CC4415CB51F900ED66D0 /* Foundation.framework in Frameworks */,
 				AF54CC4615CB51F900ED66D0 /* CoreGraphics.framework in Frameworks */,
@@ -47,9 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF1A376715CE439C0006378D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				AF54CC6315CB58D000ED66D0 /* ic_launcher.png */,
+				AF63B94815CE4B1D0036FF5F /* list.png */,
+				AF63B94A15CE4B280036FF5F /* add.png */,
+				AFFE97C615EF557F0013DD4C /* ty1.png */,
+				AF1A376015CE330E0006378D /* logo.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		AF54CC3215CB51F800ED66D0 = {
 			isa = PBXGroup;
 			children = (
+				AF1A376715CE439C0006378D /* Image */,
 				AF54CC4715CB51F900ED66D0 /* bidmongol */,
 				AF54CC4015CB51F900ED66D0 /* Frameworks */,
 				AF54CC3E15CB51F900ED66D0 /* Products */,
@@ -67,6 +113,7 @@
 		AF54CC4015CB51F900ED66D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF42125A15EAEB3800C3A52F /* libsqlite3.0.dylib */,
 				AF54CC4115CB51F900ED66D0 /* UIKit.framework */,
 				AF54CC4315CB51F900ED66D0 /* Foundation.framework */,
 				AF54CC4515CB51F900ED66D0 /* CoreGraphics.framework */,
@@ -77,11 +124,24 @@
 		AF54CC4715CB51F900ED66D0 /* bidmongol */ = {
 			isa = PBXGroup;
 			children = (
+				AF54CC6515CB58D900ED66D0 /* bidmongol.entitlements */,
 				AF54CC5015CB51F900ED66D0 /* AppDelegate.h */,
 				AF54CC5115CB51F900ED66D0 /* AppDelegate.m */,
-				AF54CC5315CB51F900ED66D0 /* MainStoryboard.storyboard */,
 				AF54CC5615CB51F900ED66D0 /* ViewController.h */,
 				AF54CC5715CB51F900ED66D0 /* ViewController.m */,
+				AF54CC5315CB51F900ED66D0 /* MainStoryboard.storyboard */,
+				AF85430A15E74D0F00EEA17A /* ViewController1.h */,
+				AF85430B15E74D0F00EEA17A /* ViewController1.m */,
+				AF8542EA15E72B1900EEA17A /* ViewController2.h */,
+				AF8542EB15E72B1900EEA17A /* ViewController2.m */,
+				AF8542ED15E72B2C00EEA17A /* ViewController3.h */,
+				AF8542EE15E72B2C00EEA17A /* ViewController3.m */,
+				AFFE97BD15EF4E7D0013DD4C /* ViewController4.h */,
+				AFFE97BE15EF4E7D0013DD4C /* ViewController4.m */,
+				AFFE97C115EF512C0013DD4C /* ViewController5.h */,
+				AFFE97C215EF512C0013DD4C /* ViewController5.m */,
+				AF85431A15EAD34A00EEA17A /* user.h */,
+				AF85431B15EAD34B00EEA17A /* user.m */,
 				AF54CC4815CB51F900ED66D0 /* Supporting Files */,
 			);
 			path = bidmongol;
@@ -91,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				AF54CC4915CB51F900ED66D0 /* bidmongol-Info.plist */,
+				AF85430115E749C300EEA17A /* bidmongol.sqlite */,
 				AF54CC4A15CB51F900ED66D0 /* InfoPlist.strings */,
 				AF54CC4D15CB51F900ED66D0 /* main.m */,
 				AF54CC4F15CB51F900ED66D0 /* bidmongol-Prefix.pch */,
@@ -150,6 +211,11 @@
 			files = (
 				AF54CC4C15CB51F900ED66D0 /* InfoPlist.strings in Resources */,
 				AF54CC5515CB51F900ED66D0 /* MainStoryboard.storyboard in Resources */,
+				AF54CC6415CB58D000ED66D0 /* ic_launcher.png in Resources */,
+				AF1A376115CE330E0006378D /* logo.png in Resources */,
+				AF63B94915CE4B1D0036FF5F /* list.png in Resources */,
+				AF63B94B15CE4B280036FF5F /* add.png in Resources */,
+				AFFE97C715EF557F0013DD4C /* ty1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +229,12 @@
 				AF54CC4E15CB51F900ED66D0 /* main.m in Sources */,
 				AF54CC5215CB51F900ED66D0 /* AppDelegate.m in Sources */,
 				AF54CC5815CB51F900ED66D0 /* ViewController.m in Sources */,
+				AF8542EC15E72B1900EEA17A /* ViewController2.m in Sources */,
+				AF8542EF15E72B2C00EEA17A /* ViewController3.m in Sources */,
+				AF85430C15E74D0F00EEA17A /* ViewController1.m in Sources */,
+				AF85431C15EAD34B00EEA17A /* user.m in Sources */,
+				AFFE97BF15EF4E7D0013DD4C /* ViewController4.m in Sources */,
+				AFFE97C315EF512C0013DD4C /* ViewController5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,10 +306,13 @@
 		AF54CC5C15CB51F900ED66D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = bidmongol/bidmongol.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bidmongol/bidmongol-Prefix.pch";
 				INFOPLIST_FILE = "bidmongol/bidmongol-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -245,10 +320,13 @@
 		AF54CC5D15CB51F900ED66D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = bidmongol/bidmongol.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bidmongol/bidmongol-Prefix.pch";
 				INFOPLIST_FILE = "bidmongol/bidmongol-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -272,6 +350,7 @@
 				AF54CC5D15CB51F900ED66D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
