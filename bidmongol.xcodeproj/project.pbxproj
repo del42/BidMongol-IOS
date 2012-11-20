@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AF1A376115CE330E0006378D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1A376015CE330E0006378D /* logo.png */; };
 		AF42125B15EAEB3800C3A52F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF42125A15EAEB3800C3A52F /* libsqlite3.0.dylib */; };
+		AF4CF168164894CB00A43C53 /* refresh_button.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF4CF167164894CB00A43C53 /* refresh_button.jpeg */; };
 		AF54CC4215CB51F900ED66D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF54CC4115CB51F900ED66D0 /* UIKit.framework */; };
 		AF54CC4415CB51F900ED66D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF54CC4315CB51F900ED66D0 /* Foundation.framework */; };
 		AF54CC4615CB51F900ED66D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF54CC4515CB51F900ED66D0 /* CoreGraphics.framework */; };
@@ -24,15 +25,15 @@
 		AF8542EF15E72B2C00EEA17A /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8542EE15E72B2C00EEA17A /* ViewController3.m */; };
 		AF85430C15E74D0F00EEA17A /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85430B15E74D0F00EEA17A /* ViewController1.m */; };
 		AF85431C15EAD34B00EEA17A /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85431B15EAD34B00EEA17A /* user.m */; };
-		AFFE97BF15EF4E7D0013DD4C /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE97BE15EF4E7D0013DD4C /* ViewController4.m */; };
-		AFFE97C315EF512C0013DD4C /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFE97C215EF512C0013DD4C /* ViewController5.m */; };
+		AFAA9FD415F1E08F00F5FB3E /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAA9FD315F1E08F00F5FB3E /* logo1.png */; };
 		AFFE97C715EF557F0013DD4C /* ty1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFFE97C615EF557F0013DD4C /* ty1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF1A376015CE330E0006378D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		AF42125A15EAEB3800C3A52F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		AF54CC3D15CB51F900ED66D0 /* bidmongol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bidmongol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4CF167164894CB00A43C53 /* refresh_button.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refresh_button.jpeg; sourceTree = "<group>"; };
+		AF54CC3D15CB51F900ED66D0 /* BIDMONGOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIDMONGOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF54CC4115CB51F900ED66D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF54CC4315CB51F900ED66D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF54CC4515CB51F900ED66D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,10 +59,7 @@
 		AF85430B15E74D0F00EEA17A /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		AF85431A15EAD34A00EEA17A /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
 		AF85431B15EAD34B00EEA17A /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
-		AFFE97BD15EF4E7D0013DD4C /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
-		AFFE97BE15EF4E7D0013DD4C /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
-		AFFE97C115EF512C0013DD4C /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
-		AFFE97C215EF512C0013DD4C /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		AFAA9FD315F1E08F00F5FB3E /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		AFFE97C615EF557F0013DD4C /* ty1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ty1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				AF54CC6315CB58D000ED66D0 /* ic_launcher.png */,
+				AF4CF167164894CB00A43C53 /* refresh_button.jpeg */,
 				AF63B94815CE4B1D0036FF5F /* list.png */,
 				AF63B94A15CE4B280036FF5F /* add.png */,
 				AFFE97C615EF557F0013DD4C /* ty1.png */,
@@ -95,6 +94,7 @@
 		AF54CC3215CB51F800ED66D0 = {
 			isa = PBXGroup;
 			children = (
+				AFAA9FD315F1E08F00F5FB3E /* logo1.png */,
 				AF1A376715CE439C0006378D /* Image */,
 				AF54CC4715CB51F900ED66D0 /* bidmongol */,
 				AF54CC4015CB51F900ED66D0 /* Frameworks */,
@@ -105,7 +105,7 @@
 		AF54CC3E15CB51F900ED66D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF54CC3D15CB51F900ED66D0 /* bidmongol.app */,
+				AF54CC3D15CB51F900ED66D0 /* BIDMONGOL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,10 +136,6 @@
 				AF8542EB15E72B1900EEA17A /* ViewController2.m */,
 				AF8542ED15E72B2C00EEA17A /* ViewController3.h */,
 				AF8542EE15E72B2C00EEA17A /* ViewController3.m */,
-				AFFE97BD15EF4E7D0013DD4C /* ViewController4.h */,
-				AFFE97BE15EF4E7D0013DD4C /* ViewController4.m */,
-				AFFE97C115EF512C0013DD4C /* ViewController5.h */,
-				AFFE97C215EF512C0013DD4C /* ViewController5.m */,
 				AF85431A15EAD34A00EEA17A /* user.h */,
 				AF85431B15EAD34B00EEA17A /* user.m */,
 				AF54CC4815CB51F900ED66D0 /* Supporting Files */,
@@ -176,7 +172,7 @@
 			);
 			name = bidmongol;
 			productName = bidmongol;
-			productReference = AF54CC3D15CB51F900ED66D0 /* bidmongol.app */;
+			productReference = AF54CC3D15CB51F900ED66D0 /* BIDMONGOL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,6 +212,8 @@
 				AF63B94915CE4B1D0036FF5F /* list.png in Resources */,
 				AF63B94B15CE4B280036FF5F /* add.png in Resources */,
 				AFFE97C715EF557F0013DD4C /* ty1.png in Resources */,
+				AFAA9FD415F1E08F00F5FB3E /* logo1.png in Resources */,
+				AF4CF168164894CB00A43C53 /* refresh_button.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,8 +231,6 @@
 				AF8542EF15E72B2C00EEA17A /* ViewController3.m in Sources */,
 				AF85430C15E74D0F00EEA17A /* ViewController1.m in Sources */,
 				AF85431C15EAD34B00EEA17A /* user.m in Sources */,
-				AFFE97BF15EF4E7D0013DD4C /* ViewController4.m in Sources */,
-				AFFE97C315EF512C0013DD4C /* ViewController5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +307,7 @@
 				GCC_PREFIX_HEADER = "bidmongol/bidmongol-Prefix.pch";
 				INFOPLIST_FILE = "bidmongol/bidmongol-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BIDMONGOL;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -325,7 +321,7 @@
 				GCC_PREFIX_HEADER = "bidmongol/bidmongol-Prefix.pch";
 				INFOPLIST_FILE = "bidmongol/bidmongol-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BIDMONGOL;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

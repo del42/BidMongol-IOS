@@ -12,6 +12,8 @@
 
 @synthesize window = _window;
 
+
+
 - (void)dealloc
 {
     [_window release];
