@@ -6,8 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewControllerFirstTabBarDetail.h"
 
-@interface ViewController1 : UIViewController<UITableViewDataSource,UITableViewDelegate,NSURLConnectionDataDelegate>
+@interface ViewControllerFirstTabBar : UIViewController<UITableViewDataSource,UITableViewDelegate,NSURLConnectionDataDelegate>
 @property (retain, nonatomic) IBOutlet UITableView *customerList;
 - (IBAction)refreshButton:(id)sender;
 @end

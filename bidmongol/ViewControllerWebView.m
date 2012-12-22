@@ -1,22 +1,19 @@
 //
-//  ViewController2.m
+//  ViewController3.m
 //  bidmongol
 //
 //  Created by Delgersuren Bold on 8/23/12.
 //
 //
 
-#import "ViewController2.h"
+#import "ViewControllerWebView.h"
 
-@interface ViewController2 ()
+@interface ViewControllerWebView ()
 
 @end
 
-@implementation ViewController2
-@synthesize confirmationLabelForAddUser;
-@synthesize nameText;
-@synthesize phoneText;
-@synthesize addressText;
+@implementation ViewControllerWebView
+@synthesize webView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,16 +26,15 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+   [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://bidmongol.com/"]]];
 }
 
 - (void)viewDidUnload
 {
-    [self setNameText:nil];
-    [self setPhoneText:nil];
-    [self setAddressText:nil];
-    [self setConfirmationLabelForAddUser:nil];
+    [self setWebView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -49,16 +45,7 @@
 }
 
 - (void)dealloc {
-    [nameText release];
-    [phoneText release];
-    [addressText release];
-    [confirmationLabelForAddUser release];
+    [webView release];
     [super dealloc];
-}
-- (IBAction)proceedButton:(id)sender {
-    NSLog(@"Here is the log msg");
-    NSLog(@"\n\n%@",self.nameText.text);
-    self.confirmationLabelForAddUser.text=@"Succesfully added! Thank you...";
-    
 }
 @end

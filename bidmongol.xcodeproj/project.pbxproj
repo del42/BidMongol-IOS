@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0F24E816804E6300B44C4A /* web.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF0F24E716804E6300B44C4A /* web.jpg */; };
 		AF1A376115CE330E0006378D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1A376015CE330E0006378D /* logo.png */; };
 		AF42125B15EAEB3800C3A52F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF42125A15EAEB3800C3A52F /* libsqlite3.0.dylib */; };
 		AF4CF168164894CB00A43C53 /* refresh_button.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF4CF167164894CB00A43C53 /* refresh_button.jpeg */; };
@@ -19,17 +20,23 @@
 		AF54CC5515CB51F900ED66D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF54CC5315CB51F900ED66D0 /* MainStoryboard.storyboard */; };
 		AF54CC5815CB51F900ED66D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF54CC5715CB51F900ED66D0 /* ViewController.m */; };
 		AF54CC6415CB58D000ED66D0 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = AF54CC6315CB58D000ED66D0 /* ic_launcher.png */; };
+		AF57323B1681133E00C1E8D5 /* ViewControllerFirstTabBarDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57323A1681133E00C1E8D5 /* ViewControllerFirstTabBarDetail.m */; };
 		AF63B94915CE4B1D0036FF5F /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = AF63B94815CE4B1D0036FF5F /* list.png */; };
 		AF63B94B15CE4B280036FF5F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = AF63B94A15CE4B280036FF5F /* add.png */; };
-		AF8542EC15E72B1900EEA17A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8542EB15E72B1900EEA17A /* ViewController2.m */; };
-		AF8542EF15E72B2C00EEA17A /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8542EE15E72B2C00EEA17A /* ViewController3.m */; };
-		AF85430C15E74D0F00EEA17A /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85430B15E74D0F00EEA17A /* ViewController1.m */; };
-		AF85431C15EAD34B00EEA17A /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85431B15EAD34B00EEA17A /* user.m */; };
+		AF74FC8616642B5A00579791 /* refresh2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF74FC8516642B5A00579791 /* refresh2.jpg */; };
+		AF8542EF15E72B2C00EEA17A /* ViewControllerWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8542EE15E72B2C00EEA17A /* ViewControllerWebView.m */; };
+		AF85430C15E74D0F00EEA17A /* ViewControllerFirstTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85430B15E74D0F00EEA17A /* ViewControllerFirstTabBar.m */; };
+		AFA384EF168430550026A2D1 /* ViewControllerForUSwarehouseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA384EE168430550026A2D1 /* ViewControllerForUSwarehouseTabBar.m */; };
+		AFA384F31684307B0026A2D1 /* ViewControllerForMongoliaTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA384F21684307B0026A2D1 /* ViewControllerForMongoliaTabBar.m */; };
+		AFA384F6168430B60026A2D1 /* ViewControllerForUSwarehouseTabBarDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA384F5168430B60026A2D1 /* ViewControllerForUSwarehouseTabBarDetail.m */; };
+		AFA384F9168430D70026A2D1 /* ViewControllerForMongoliaTabBarDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA384F8168430D70026A2D1 /* ViewControllerForMongoliaTabBarDetail.m */; };
+		AFA7FF971685262300EF6B8A /* ViewControllerPlaceOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA7FF961685262300EF6B8A /* ViewControllerPlaceOrder.m */; };
 		AFAA9FD415F1E08F00F5FB3E /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAA9FD315F1E08F00F5FB3E /* logo1.png */; };
 		AFFE97C715EF557F0013DD4C /* ty1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFFE97C615EF557F0013DD4C /* ty1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0F24E716804E6300B44C4A /* web.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = web.jpg; sourceTree = "<group>"; };
 		AF1A376015CE330E0006378D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		AF42125A15EAEB3800C3A52F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		AF4CF167164894CB00A43C53 /* refresh_button.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refresh_button.jpeg; sourceTree = "<group>"; };
@@ -48,17 +55,26 @@
 		AF54CC5715CB51F900ED66D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF54CC6315CB58D000ED66D0 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		AF54CC6515CB58D900ED66D0 /* bidmongol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = bidmongol.entitlements; sourceTree = "<group>"; };
+		AF5732391681133E00C1E8D5 /* ViewControllerFirstTabBarDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFirstTabBarDetail.h; sourceTree = "<group>"; };
+		AF57323A1681133E00C1E8D5 /* ViewControllerFirstTabBarDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirstTabBarDetail.m; sourceTree = "<group>"; };
 		AF63B94815CE4B1D0036FF5F /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		AF63B94A15CE4B280036FF5F /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
-		AF8542EA15E72B1900EEA17A /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
-		AF8542EB15E72B1900EEA17A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
-		AF8542ED15E72B2C00EEA17A /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
-		AF8542EE15E72B2C00EEA17A /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		AF74FC8516642B5A00579791 /* refresh2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refresh2.jpg; sourceTree = "<group>"; };
+		AF8542ED15E72B2C00EEA17A /* ViewControllerWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerWebView.h; sourceTree = "<group>"; };
+		AF8542EE15E72B2C00EEA17A /* ViewControllerWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWebView.m; sourceTree = "<group>"; };
 		AF85430115E749C300EEA17A /* bidmongol.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bidmongol.sqlite; sourceTree = SOURCE_ROOT; };
-		AF85430A15E74D0F00EEA17A /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
-		AF85430B15E74D0F00EEA17A /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
-		AF85431A15EAD34A00EEA17A /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
-		AF85431B15EAD34B00EEA17A /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
+		AF85430A15E74D0F00EEA17A /* ViewControllerFirstTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFirstTabBar.h; sourceTree = "<group>"; };
+		AF85430B15E74D0F00EEA17A /* ViewControllerFirstTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirstTabBar.m; sourceTree = "<group>"; };
+		AFA384ED168430550026A2D1 /* ViewControllerForUSwarehouseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForUSwarehouseTabBar.h; sourceTree = "<group>"; };
+		AFA384EE168430550026A2D1 /* ViewControllerForUSwarehouseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForUSwarehouseTabBar.m; sourceTree = "<group>"; };
+		AFA384F11684307B0026A2D1 /* ViewControllerForMongoliaTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForMongoliaTabBar.h; sourceTree = "<group>"; };
+		AFA384F21684307B0026A2D1 /* ViewControllerForMongoliaTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForMongoliaTabBar.m; sourceTree = "<group>"; };
+		AFA384F4168430B60026A2D1 /* ViewControllerForUSwarehouseTabBarDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForUSwarehouseTabBarDetail.h; sourceTree = "<group>"; };
+		AFA384F5168430B60026A2D1 /* ViewControllerForUSwarehouseTabBarDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForUSwarehouseTabBarDetail.m; sourceTree = "<group>"; };
+		AFA384F7168430D70026A2D1 /* ViewControllerForMongoliaTabBarDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForMongoliaTabBarDetail.h; sourceTree = "<group>"; };
+		AFA384F8168430D70026A2D1 /* ViewControllerForMongoliaTabBarDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForMongoliaTabBarDetail.m; sourceTree = "<group>"; };
+		AFA7FF951685262300EF6B8A /* ViewControllerPlaceOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPlaceOrder.h; sourceTree = "<group>"; };
+		AFA7FF961685262300EF6B8A /* ViewControllerPlaceOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPlaceOrder.m; sourceTree = "<group>"; };
 		AFAA9FD315F1E08F00F5FB3E /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		AFFE97C615EF557F0013DD4C /* ty1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ty1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +99,8 @@
 			children = (
 				AF54CC6315CB58D000ED66D0 /* ic_launcher.png */,
 				AF4CF167164894CB00A43C53 /* refresh_button.jpeg */,
+				AF0F24E716804E6300B44C4A /* web.jpg */,
+				AF74FC8516642B5A00579791 /* refresh2.jpg */,
 				AF63B94815CE4B1D0036FF5F /* list.png */,
 				AF63B94A15CE4B280036FF5F /* add.png */,
 				AFFE97C615EF557F0013DD4C /* ty1.png */,
@@ -130,14 +148,22 @@
 				AF54CC5615CB51F900ED66D0 /* ViewController.h */,
 				AF54CC5715CB51F900ED66D0 /* ViewController.m */,
 				AF54CC5315CB51F900ED66D0 /* MainStoryboard.storyboard */,
-				AF85430A15E74D0F00EEA17A /* ViewController1.h */,
-				AF85430B15E74D0F00EEA17A /* ViewController1.m */,
-				AF8542EA15E72B1900EEA17A /* ViewController2.h */,
-				AF8542EB15E72B1900EEA17A /* ViewController2.m */,
-				AF8542ED15E72B2C00EEA17A /* ViewController3.h */,
-				AF8542EE15E72B2C00EEA17A /* ViewController3.m */,
-				AF85431A15EAD34A00EEA17A /* user.h */,
-				AF85431B15EAD34B00EEA17A /* user.m */,
+				AF85430A15E74D0F00EEA17A /* ViewControllerFirstTabBar.h */,
+				AF85430B15E74D0F00EEA17A /* ViewControllerFirstTabBar.m */,
+				AFA7FF951685262300EF6B8A /* ViewControllerPlaceOrder.h */,
+				AFA7FF961685262300EF6B8A /* ViewControllerPlaceOrder.m */,
+				AF8542ED15E72B2C00EEA17A /* ViewControllerWebView.h */,
+				AF8542EE15E72B2C00EEA17A /* ViewControllerWebView.m */,
+				AF5732391681133E00C1E8D5 /* ViewControllerFirstTabBarDetail.h */,
+				AF57323A1681133E00C1E8D5 /* ViewControllerFirstTabBarDetail.m */,
+				AFA384ED168430550026A2D1 /* ViewControllerForUSwarehouseTabBar.h */,
+				AFA384EE168430550026A2D1 /* ViewControllerForUSwarehouseTabBar.m */,
+				AFA384F11684307B0026A2D1 /* ViewControllerForMongoliaTabBar.h */,
+				AFA384F21684307B0026A2D1 /* ViewControllerForMongoliaTabBar.m */,
+				AFA384F4168430B60026A2D1 /* ViewControllerForUSwarehouseTabBarDetail.h */,
+				AFA384F5168430B60026A2D1 /* ViewControllerForUSwarehouseTabBarDetail.m */,
+				AFA384F7168430D70026A2D1 /* ViewControllerForMongoliaTabBarDetail.h */,
+				AFA384F8168430D70026A2D1 /* ViewControllerForMongoliaTabBarDetail.m */,
 				AF54CC4815CB51F900ED66D0 /* Supporting Files */,
 			);
 			path = bidmongol;
@@ -214,6 +240,8 @@
 				AFFE97C715EF557F0013DD4C /* ty1.png in Resources */,
 				AFAA9FD415F1E08F00F5FB3E /* logo1.png in Resources */,
 				AF4CF168164894CB00A43C53 /* refresh_button.jpeg in Resources */,
+				AF74FC8616642B5A00579791 /* refresh2.jpg in Resources */,
+				AF0F24E816804E6300B44C4A /* web.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,10 +255,14 @@
 				AF54CC4E15CB51F900ED66D0 /* main.m in Sources */,
 				AF54CC5215CB51F900ED66D0 /* AppDelegate.m in Sources */,
 				AF54CC5815CB51F900ED66D0 /* ViewController.m in Sources */,
-				AF8542EC15E72B1900EEA17A /* ViewController2.m in Sources */,
-				AF8542EF15E72B2C00EEA17A /* ViewController3.m in Sources */,
-				AF85430C15E74D0F00EEA17A /* ViewController1.m in Sources */,
-				AF85431C15EAD34B00EEA17A /* user.m in Sources */,
+				AF8542EF15E72B2C00EEA17A /* ViewControllerWebView.m in Sources */,
+				AF85430C15E74D0F00EEA17A /* ViewControllerFirstTabBar.m in Sources */,
+				AF57323B1681133E00C1E8D5 /* ViewControllerFirstTabBarDetail.m in Sources */,
+				AFA384EF168430550026A2D1 /* ViewControllerForUSwarehouseTabBar.m in Sources */,
+				AFA384F31684307B0026A2D1 /* ViewControllerForMongoliaTabBar.m in Sources */,
+				AFA384F6168430B60026A2D1 /* ViewControllerForUSwarehouseTabBarDetail.m in Sources */,
+				AFA384F9168430D70026A2D1 /* ViewControllerForMongoliaTabBarDetail.m in Sources */,
+				AFA7FF971685262300EF6B8A /* ViewControllerPlaceOrder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
